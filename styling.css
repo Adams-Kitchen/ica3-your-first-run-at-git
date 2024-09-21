@@ -48,10 +48,11 @@
     border-bottom: 40px solid rgb(107, 16, 16);
     padding: 0;
     line-height: 1;
+    
 }
 .star {
-    width: 80px;
-    height: 80px;
+    width: 30px;
+    height: 30px;
     background-color: rgb(26, 152, 194);
     clip-path: polygon(
         50% 0%, 
@@ -70,4 +71,30 @@
     line-height: 1;
     margin: 0px;
     padding: 0px;
+}
+
+.Table_Heading{
+   text-align: center;
+}
+
+.Table_Contents{
+    text-align: center;
+    width: 50%;
+    margin-left: 23%;
+    margin-right: 30%; 
+    padding: 0px;
+    border: black solid 4px;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    font-weight: bolder;
+    text-decoration-line: underline;
 }
