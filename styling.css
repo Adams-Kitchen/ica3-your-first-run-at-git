@@ -4,6 +4,7 @@
     padding: 0;
     background-color: rgb(255, 255, 255);
     background-color: antiquewhite;
+    
   }
   .navbar {
     margin: 0;
@@ -48,11 +49,11 @@
     border-bottom: 40px solid rgb(107, 16, 16);
     padding: 0;
     line-height: 1;
-    
+   
 }
 .star {
-    width: 30px;
-    height: 30px;
+    width: 80px;
+    height: 80px;
     background-color: rgb(26, 152, 194);
     clip-path: polygon(
         50% 0%, 
@@ -98,3 +99,27 @@ th {
     font-weight: bolder;
     text-decoration-line: underline;
 }
+
+.photo-gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+    width: 100%;
+    max-width: 300px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  
+  figure {
+    margin: 0;
+    text-align: center; 
+    flex: 1;
+    text-decoration: underline;
+    
+  }
+  
+  img {
+    max-width: 300px; 
+    height: auto;
+    padding: 30px;
+  }
