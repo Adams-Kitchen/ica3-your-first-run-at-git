@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="styling.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <a href="constitution.html" class = "navitem" > Home Page</a> 
+        <a href="constitution_stats.html" class = "navitem" > Constitution Stats </a>
+        <a href="constitutional_images.html" class = "navitem" > Constitutional Images </a>
+        
+    </div>
+    <header style="font-size: 40px;" id="header">
+        <h4 > The United States </h4>
+        <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+        <h4 id="USA"> Constitution: User </h4>
+    </header>
+<span style="align-items: center;">
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+    </div>
+    <br>
+
+    <div>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+    </div>
+    <br>
+    <div>
+        <label for="subscribe">Subscribe:</label>
+        <input type="checkbox" id="subscribe" name="subscribe">
+    </div>
+    <br>
+    <div>
+        <label for="male">Male:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="female">Female:</label>
+        <input type="radio" id="female" name="gender" value="female">
+    </div>
+    <br>
+    <div>
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="mexico">Mexico</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+    </div>
+    <br>
+    <div>
+        <form action="constitution.html" method="post">
+            <a href="constitution.html" class="button">Submit</a>
+        </form>
+        
+        <style>
+            .button {
+                display: inline-block;
+                padding: 10px 20px;
+                background-color:rgb(39, 161, 202) ;
+                color: white;
+                text-decoration: none;
+                border-radius: 5px;
+            }
+            .button:hover{
+                border: 2px solid white;
+            }
+        </style>
+    </div>
+</span>    
+</body>
+</html>
